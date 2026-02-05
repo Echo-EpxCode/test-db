@@ -1,15 +1,17 @@
 <?php
 
-$conn = mysqli_connect("localhost","root","","test_db");
+// Database connection ni Juday
+$host = "localhost";
+$user = "root";
+$pwd = "";
+$db = "test_db";
 
-if(!$conn)
-    {
-        die("Connection failed" . mysqli_connect_error());
-        
-    }
-    echo "Connected Successfully";
+$conn = mysqli_connect($host,$user,$pwd,$db);
+  if(mysqli_connect_error()) {
+    die ("Failed to connect" .mysqli_connect_error());
+  }
 
-    mysqli_close($conn);
 
-?>
+
+
 
