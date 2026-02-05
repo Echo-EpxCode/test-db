@@ -60,7 +60,7 @@ if (isset($_POST['register'])) {
        <div class="form-outline mb-4">
         <input type="password" name="password" placeholder="Password" class="form-control form-control-lg"> </div>
        <div class="form-outline mb-4 d-grid gap-2">
-        <button type="submit" class="btn btn-info" name="register">Register </button>
+        <button type="submit" class="btn btn-info" name="register">Register </button>   
        </div>
        <div>
         <p class="mb-2"> Already have an account? <a class="text-white-50 fw-bold" href="index.php">Login Here</a></p>
